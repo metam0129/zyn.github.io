@@ -1,5 +1,5 @@
 # zyn.github.io
-git clone https://github.com/ metam0129/metam0129.github.io
+git clone https://github.com/ zyn.github.io
 git add --all
 
 git commit -m “Initial commit”
