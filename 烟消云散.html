@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="一看到这个文字消散特效，我的脑子立马就想到了这个，再加上
+    “外物不可必，中怀须自空。无令怏怏气，留滞在心胸。”这句话真的是朗朗上口，而且道理对我来说很有用，希望也能对你有所启发">
+    <meta name="keywords" content="YaYa，祝你生日快乐啊！！！----马森森">
+    <title></title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(0, 0, 0);
+            overflow: hidden;
+        }
+        .text{
+            position: relative;
+            width: 700px;
+            text-indent: 2em;
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+            cursor: pointer;
+            user-select: none;
+            text-align: justify;           
+        }
+        .text span{
+            position: relative;
+            display: inline-block;
+            transform-origin: bottom;
+            text-indent: 0;
+        }
+        .text .move{        
+            animation: up 2s linear forwards;
+        }
+        @keyframes up{
+            100%{
+                opacity: 0;
+                filter: blur(20px);
+                transform: translate(600px,-500px) rotate(360deg) scale(5);
+            }
+        }
+    </style>
+        <link rel="stylesheet" href="烟消云散.css">
+</head>
+<body>
+    <p class="text">
+        世俗认为的幸福是立业成家，幼有所受，老有所依，与人为伴，阖阖美美，但谁又能定义真正的幸福？
+        老有所依是福，为自己的理想鞠躬尽瘁也是福，幸福没有定义，只要是自己觉得好的，那都是福。但福不可能相伴人的一生，有舍有得才是人生。
+        就像我最近看的《去有风的地方》这部剧里面的马爷说过的一句话
+        "外物不可必，中怀须自空。
+        无令怏怏气，留滞在心胸。"
+        他是一个创业了好多次的创业家，在失败后依然会继续前行。回过头来说这个诗文，我的语文理解也不好，网上也没有找到相关译文。
+        但要我来说就是让烦恼见鬼去吧！希望你有自古逢秋悲寂寥，我言秋日胜春朝的心态，以及仰天大笑出门去，我辈岂是蓬蒿人的理解。
+        不只是今天这样，以后也是，祝愿天天开心哦😋（把鼠标放在文字上试试，有神奇的事发生，可刷新重新看）
+    </p>
+    <a class="button button-color" href="记忆.html"><span class="button-name">让不开心烟消云散</span><i class="button-icon fa fa-arrow-right"></i></a>
+
+    <script>
+        var txt = document.querySelector(".text");
+        txt.innerHTML = txt.textContent.replace(/\S/g,"<span>$&</span>");
+
+        var arr = document.querySelectorAll("span");
+        arr.forEach(function(temp){
+            temp.addEventListener('mouseover',()=>{
+                temp.classList.add('move');
+                console.log('666');
+            })
+        }) 
+
+            
+    </script>
+</body>
+</html>

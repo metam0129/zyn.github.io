@@ -1,0 +1,238 @@
+*,
+*::before,
+*::after {
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* html,
+body,
+main {
+  height: 100%;
+} */
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.ff-serif {
+  font-family: "Playfair Display", Georgia, serif;
+}
+
+.ff-sans {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+.fill-height {
+  height: 100%;
+}
+
+.rounded2 {
+  border-radius: 6px;
+}
+
+.lh1 {
+  line-height: 1;
+}
+
+.lh0 {
+  line-height: 0;
+}
+
+.transition-all {
+  transition-property: all;
+}
+
+.transition-100ms {
+  transition-duration: 100ms;
+}
+
+.transition-200ms {
+  transition-duration: 200ms;
+}
+
+.transition-600ms {
+  transition-duration: 600ms;
+}
+
+.transition-ease-in-out {
+  transition-timing-function: ease-in-out;
+}
+
+.transition-cubic {
+  transition-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.transition-ease-in-out-back {
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.transition-delay-2s {
+  transition-delay: 2s;
+}
+
+.z0 {
+  z-index: 0;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.18);
+}
+
+.box-shadow-bottom {
+  box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.22);
+}
+
+.min-width1 {
+  min-width: 100px;
+}
+
+.mt2-not-last:not(last-child) {
+  margin-top: 1rem;
+}
+
+.indent1,
+.indent1-hover:hover {
+  text-indent: 5px;
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.border-width2 {
+  border-width: 2px;
+}
+
+.reset-skewY {
+  transform: skewY(0);
+}
+
+.skewY {
+  transform: skewY(5deg);
+}
+
+.skewY-neg {
+  transform: skewY(-5deg);
+}
+
+.fill-half {
+  width: 50%;
+}
+
+.bg-black-semitransparent {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.opaque {
+  opacity: 1;
+}
+
+.semi-transparent {
+  opacity: 0.65;
+}
+
+.translucent {
+  opacity: 0;
+}
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+#app {
+  width: 400px;
+  height: 400px;
+}
+
+.bg-red {
+  background-color: #F15C7E;
+}
+
+.bg-ghostwhite {
+  background-color: #EAFEE9;
+}
+
+.bg-yellow {
+  background-color: #FFDB8A;
+}
+
+.bg-purple {
+  background-color: #65336E;
+}
+
+.border-width-3 {
+  border-width: 4px;
+}
+
+.border-purple {
+  border-color: #65336E;
+}
+
+.rounded3 {
+  border-radius: 6px;
+}
+
+.purple {
+  color: #65336E;
+}
+
+.width05 {
+  width: 8px;
+}
+
+.height05 {
+  height: 8px;
+}
+
+.width1 {
+  width: 16px;
+}
+
+.height1 {
+  height: 16px;
+}
+
+.height2 {
+  height: 20px;
+}
+
+.top-neg1 {
+  top: -5px;
+}
+
+.top-neg4 {
+  top: -60px;
+}
+
+.bottom-neg1 {
+  bottom: -5px;
+}
+
+.left-neg1 {
+  left: -5px;
+}
+
+.right-neg1 {
+  right: -5px;
+}
+
+.y1-active:active {
+  transform: translateY(3px);
+}
